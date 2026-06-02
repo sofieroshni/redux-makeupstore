@@ -1,5 +1,5 @@
 import React from "react";
-import { Add } from "../Features/cartSlice";
+import { Add } from "../Features/CartSlice.jsx";
 import { useDispatch } from "react-redux";
 export const Product = ({ product }) => {
 const dispatch = useDispatch();
